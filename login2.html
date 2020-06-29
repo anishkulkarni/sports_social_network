@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="login2.css" />
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row no-gutter">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+    <div class="col-md-8 col-lg-6">
+      <div class="login d-flex align-items-center py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+              <form action="LoginAuthenticator" method="post">
+                <div class="form-label-group m-4 w-50">
+                	<h1 class="display-1">Sports Social Network</h1>
+                </div>
+                <div class="form-label-group m-4 w-50">
+                  <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
+                  <label for="username">Username</label>
+                </div>
+                <div class="form-label-group m-4 w-50">
+                  <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+                  <label for="password">Password</label>
+                </div>
+                <div class="form-label-group m-4 w-50">
+                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+                </div>
+                <div class="form-label-group m-4 w-50">
+                <a href="signup2.html"><button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"">New Here? Signup</button></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
